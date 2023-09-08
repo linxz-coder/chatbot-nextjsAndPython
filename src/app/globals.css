@@ -16,12 +16,8 @@
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
+.text-gradient {
+  @apply bg-gradient-to-r bg-clip-text text-transparent from-pink-500 to-purple-500
+ }
+
+
